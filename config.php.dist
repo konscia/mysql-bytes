@@ -1,0 +1,16 @@
+<?php
+
+return [
+    'dbal-config' => [
+        'dbname' => 'information_schema',
+        'user' => 'root',
+        'password' => 'xxxx',
+        'host' => 'localhost',
+        'driver' => 'pdo_mysql',
+        'port' => 3306,
+        'charset'  => 'utf8',
+        'driverOptions' => array(
+            1002 => 'SET NAMES utf8'
+        )
+    ]
+];

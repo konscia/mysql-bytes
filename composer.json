@@ -1,0 +1,22 @@
+{
+    "name": "konscia/mysql-bytes",
+    "description": "Measures the space in disk usage of MySQL tables and databases",
+    "type": "project",
+    "require": {
+        "league/climate": "^3.8",
+        "doctrine/dbal": "^3.5",
+        "ext-mysqli": "*"
+    },
+    "license": "MIT licence",
+    "autoload": {
+        "psr-4": {
+            "Konscia\\MysqlBytes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kaléu Puskas",
+            "email": "kaleu@konscia.me"
+        }
+    ]
+}
